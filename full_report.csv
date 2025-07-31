@@ -1,0 +1,10 @@
+Average gross salary by department
+department,avg_gross_salary
+Analytics,1612.5
+Engineering,2137.5
+Finance,2287.5
+HR,1987.5
+Count of employees by location
+location,num_employees
+Beograd,2
+Novi Sad,2

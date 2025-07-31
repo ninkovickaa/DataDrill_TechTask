@@ -65,7 +65,7 @@ def bronze_layer():
     #--save in bronze dict, parquet format
         try:
             df_employees.to_parquet(f"{local_file_path}/bronze/employees.parquet")
-            print(f"Validation is done. Df_employees is successfuly convert in parquet format")
+            print(f"Validation is done. Df_employees is successfuly convert in parquet format. Directory: bronze")
         except Exception as e:
             print(f"Failed to convert in parquet format: {e}")
     else:
